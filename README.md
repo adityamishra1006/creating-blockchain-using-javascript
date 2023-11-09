@@ -57,9 +57,9 @@ Feel free to contribute to the development of EtherPulse! Open issues, submit pu
 
 ## Tips
 Install the crypto.js library by executing this code. 
-'''
-npm install --save crypto.js
-'''
+ ```
+    npm install --save crypto.js
+ ```
 Include this during the process of saving SHA-256
 
 ### Creating Transactions
