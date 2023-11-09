@@ -30,7 +30,7 @@ To get started with EtherPulse, follow these steps:
 1. Clone the repository:
 
     ```
-    git clone https://github.com/adityamishra1006/etherpulse.git
+    https://github.com/adityamishra1006/creating-blockchain-using-javascript
     ```
 
 2. Install dependencies:
