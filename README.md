@@ -61,8 +61,13 @@ Feel free to contribute to the development of EtherPulse! Open issues, submit pu
 let transaction1 = new Transaction("Tom", "Jerry", 100);
 etherPulse.createTransaction(transaction1);
 
+### Mining Block
 
-###Checking Balance
+console.log("Started Mining by the miner....");
+etherPulse.minePendingTransactions("Donald");
+
+
+### Checking Balance
 
 ```javascript
 console.log("Balance for Jerry is: " + etherPulse.getBalanceOfAddress("Jerry"));
