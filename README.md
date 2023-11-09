@@ -49,28 +49,24 @@ To get started with EtherPulse, follow these steps:
 
 EtherPulse provides a basic blockchain structure with the ability to create transactions, mine new blocks, and check address balances.
 
+## Examples
+Explore the provided examples in the repository to see how EtherPulse can be used in different scenarios.
+
+## Contributing
+Feel free to contribute to the development of EtherPulse! Open issues, submit pull requests, and share your ideas.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ### Creating Transactions
 
 ```javascript
 let transaction1 = new Transaction("Tom", "Jerry", 100);
 etherPulse.createTransaction(transaction1);
 
-### Mining Block
 
-```javascript
-console.log("Started Mining by the miner....");
-etherPulse.minePendingTransactions("Donald");
-
-### Checking Balance
+###Checking Balance
 
 ```javascript
 console.log("Balance for Jerry is: " + etherPulse.getBalanceOfAddress("Jerry"));
 
-##Examples
-Explore the provided examples in the repository to see how EtherPulse can be used in different scenarios.
-
-##Contributing
-Feel free to contribute to the development of EtherPulse! Open issues, submit pull requests, and share your ideas.
-
-##License
-This project is licensed under the MIT License - see the LICENSE file for details.
