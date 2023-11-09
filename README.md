@@ -10,7 +10,7 @@ EtherPulse is a simple blockchain implementation in JavaScript. It allows users 
 - [Usage](#usage)
 - [Examples](#examples)
 - [Contributing](#contributing)
-- [License](#license)
+- [Tips.](#tips)
 
 ## Introduction
 
@@ -55,21 +55,15 @@ Explore the provided examples in the repository to see how EtherPulse can be use
 ## Contributing
 Feel free to contribute to the development of EtherPulse! Open issues, submit pull requests, and share your ideas.
 
-### Some Codes
+## Tips
+Install the crypto.js library by executing this code. 
+'''
+npm install --save crypto.js
+'''
+Include this during the process of saving SHA-256
 
-//Creating Transactions
+### Creating Transactions
 
 ```javascript
 let transaction1 = new Transaction("Tom", "Jerry", 100);
 etherPulse.createTransaction(transaction1);
-
-//Mining Block
-
-console.log("Started Mining by the miner....");
-etherPulse.minePendingTransactions("Donald");
-
-//Checking Balance
-
-```javascript
-console.log("Balance for Jerry is: " + etherPulse.getBalanceOfAddress("Jerry"));
-
