@@ -55,9 +55,6 @@ Explore the provided examples in the repository to see how EtherPulse can be use
 ## Contributing
 Feel free to contribute to the development of EtherPulse! Open issues, submit pull requests, and share your ideas.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ### Creating Transactions
 
 ```javascript
